@@ -1,0 +1,52 @@
+/* common shared styles */
+body{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+/* যেহেতু বেশিরভাগ জায়গায় এই কালারটা আছে তাই text primary class তৈরি করা হয়েছে */
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+
+/* nav এর ইমেডিয়েট পরে যে ul টা আছে সেটার উপর এপ্লাই হবে */
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+/* nav এর ভিতর যতগুলো li আছে */
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
